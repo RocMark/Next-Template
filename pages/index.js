@@ -10,14 +10,10 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1 className="title tl">
+        <h1 className="test-title tl">
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
       </main>
-
-      <footer>
-        <span>Footer</span>
-      </footer>
 
       <style jsx>{``}</style>
       <style jsx global>{``}</style>
