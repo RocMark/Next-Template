@@ -1,22 +1,21 @@
 import Head from 'next/head'
 import '../assets/scss/main.scss'
 
-export default function Home() {
+const Home = () => {
   return (
-    <div className="container">
+    <div className='container'>
       <Head>
         <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel='icon' href='/favicon.ico' />
       </Head>
 
       <main>
-        <h1 className="test-title tl">
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+        <h1 className='test-title tl'>
+          Welcome to <a href='https://nextjs.org'>Next.js!</a>
         </h1>
       </main>
-
-      <style jsx>{``}</style>
-      <style jsx global>{``}</style>
     </div>
   )
 }
+
+export default Home
